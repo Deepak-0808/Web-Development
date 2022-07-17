@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Hello World!</h1>
+    <p>HELLO MY NAME IS DEEPAK KUMAR</p>
+    <button type="button" onclick="color()">Set background color</button>
+
+    <script>
+      function color() {
+        docBody = document.getElementsByTagName("body")[0];
+        myBodyElements = docBody.getElementsByTagName("p");
+        myp1 = myBodyElements[0];
+        myp1.style.background = "rgb(255,0,0)";
+      }
+    </script>
+  </body>
+</html>
